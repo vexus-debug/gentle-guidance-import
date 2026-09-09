@@ -9,110 +9,106 @@
 
 @layer base {
   :root {
-    /* Warm cream background - Earth & Gold palette */
-    --background: 38 40% 96%;
-    --foreground: 20 30% 18%;
+    /* Pure white canvas with a whisper of violet */
+    --background: 270 30% 99%;
+    --foreground: 272 45% 12%;
 
-    /* Cards with warm ivory tones */
-    --card: 40 35% 97%;
-    --card-foreground: 20 30% 18%;
+    /* Cards: crisp white */
+    --card: 0 0% 100%;
+    --card-foreground: 272 45% 12%;
 
-    --popover: 40 35% 97%;
-    --popover-foreground: 20 30% 18%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 272 45% 12%;
 
-    /* Primary: Rich terracotta - Afrocentric warmth */
-    --primary: 18 55% 45%;
+    /* Primary: deep royal purple */
+    --primary: 272 55% 30%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary: Deep earth brown */
-    --secondary: 20 45% 22%;
-    --secondary-foreground: 40 35% 95%;
+    /* Secondary: darkest aubergine purple */
+    --secondary: 274 60% 17%;
+    --secondary-foreground: 45 60% 92%;
 
-    /* Muted: Soft sand for subtle backgrounds */
-    --muted: 35 30% 90%;
-    --muted-foreground: 20 20% 40%;
+    /* Muted: soft lilac greys */
+    --muted: 270 25% 95%;
+    --muted-foreground: 272 15% 42%;
 
-    /* Accent: Warm bronze/copper */
-    --accent: 28 50% 55%;
-    --accent-foreground: 20 45% 15%;
+    /* Accent: rich gold */
+    --accent: 43 72% 48%;
+    --accent-foreground: 274 60% 15%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 72% 48%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 25% 82%;
-    --input: 30 25% 82%;
-    --ring: 18 55% 45%;
+    --border: 272 20% 89%;
+    --input: 272 20% 89%;
+    --ring: 43 72% 48%;
 
     --radius: 0.25rem;
 
-    /* Custom spa colors - Earth & Gold Afrocentric palette */
-    --spa-cream: 38 40% 96%;
-    --spa-taupe: 25 35% 55%;
-    --spa-rose: 15 40% 60%;
-    --spa-chocolate: 20 50% 20%;
-    --spa-gold: 42 75% 50%;
-    --spa-beige: 35 35% 85%;
-    --spa-terracotta: 18 55% 45%;
-    --spa-bronze: 28 50% 55%;
-    --spa-earth: 20 45% 30%;
+    /* Brand palette - Deep Purple / Rich Gold / White */
+    --spa-cream: 270 30% 99%;
+    --spa-taupe: 272 18% 55%;
+    --spa-rose: 290 30% 60%;
+    --spa-chocolate: 274 60% 17%;
+    --spa-gold: 43 74% 50%;
+    --spa-beige: 270 22% 93%;
+    --spa-terracotta: 272 55% 30%;
+    --spa-bronze: 40 55% 55%;
+    --spa-earth: 274 45% 25%;
 
     /* Glossy effect colors */
     --glossy-highlight: 0 0% 100%;
-    --glossy-shimmer: 42 75% 65%;
-    --glossy-pearl: 38 35% 94%;
+    --glossy-shimmer: 45 80% 66%;
+    --glossy-pearl: 272 30% 97%;
   }
 
   .dark {
-    /* Deep espresso/chocolate backgrounds with warm undertones */
-    --background: 20 30% 8%;
-    --foreground: 35 30% 92%;
+    /* Deep purple night */
+    --background: 274 45% 7%;
+    --foreground: 270 25% 94%;
 
-    /* Rich chocolate card surfaces */
-    --card: 22 28% 12%;
-    --card-foreground: 35 28% 90%;
+    --card: 274 40% 11%;
+    --card-foreground: 270 25% 93%;
 
-    --popover: 22 28% 14%;
-    --popover-foreground: 35 28% 90%;
+    --popover: 274 40% 13%;
+    --popover-foreground: 270 25% 93%;
 
-    /* Gold becomes the hero accent in dark mode */
-    --primary: 42 75% 55%;
-    --primary-foreground: 20 30% 8%;
+    /* Gold leads in dark mode */
+    --primary: 43 78% 56%;
+    --primary-foreground: 274 55% 10%;
 
-    /* Warm bronze secondary */
-    --secondary: 28 45% 55%;
-    --secondary-foreground: 35 30% 95%;
+    /* Luminous purple secondary */
+    --secondary: 272 45% 40%;
+    --secondary-foreground: 45 60% 94%;
 
-    /* Deep muted with warmth */
-    --muted: 22 25% 16%;
-    --muted-foreground: 35 25% 65%;
+    --muted: 274 30% 16%;
+    --muted-foreground: 270 18% 68%;
 
-    /* Bronze accent */
-    --accent: 28 50% 60%;
-    --accent-foreground: 20 30% 10%;
+    --accent: 43 70% 58%;
+    --accent-foreground: 274 55% 10%;
 
-    --destructive: 0 62% 40%;
+    --destructive: 0 62% 42%;
     --destructive-foreground: 0 0% 100%;
 
-    /* Warm borders */
-    --border: 25 20% 22%;
-    --input: 25 20% 22%;
-    --ring: 42 75% 55%;
+    --border: 274 25% 22%;
+    --input: 274 25% 22%;
+    --ring: 43 78% 56%;
 
     /* Glossy effects for dark mode */
-    --glossy-highlight: 35 30% 95%;
-    --glossy-shimmer: 42 70% 60%;
-    --glossy-pearl: 22 25% 18%;
+    --glossy-highlight: 270 30% 96%;
+    --glossy-shimmer: 45 75% 62%;
+    --glossy-pearl: 274 30% 18%;
 
-    /* Spa colors adapted for dark mode */
-    --spa-cream: 25 25% 14%;
-    --spa-taupe: 25 35% 50%;
-    --spa-rose: 15 40% 55%;
-    --spa-chocolate: 20 45% 28%;
-    --spa-gold: 42 80% 58%;
-    --spa-beige: 30 25% 22%;
-    --spa-terracotta: 18 50% 50%;
-    --spa-bronze: 28 50% 58%;
-    --spa-earth: 20 40% 40%;
+    /* Brand palette adapted for dark mode */
+    --spa-cream: 274 35% 14%;
+    --spa-taupe: 272 20% 55%;
+    --spa-rose: 290 30% 58%;
+    --spa-chocolate: 274 45% 26%;
+    --spa-gold: 43 80% 58%;
+    --spa-beige: 274 25% 22%;
+    --spa-terracotta: 272 45% 48%;
+    --spa-bronze: 40 55% 58%;
+    --spa-earth: 274 40% 35%;
   }
 }
 
@@ -145,7 +141,7 @@
     background: linear-gradient(
       145deg,
       hsl(var(--secondary)) 0%,
-      hsl(25 35% 30%) 50%,
+      hsl(272 50% 26%) 50%,
       hsl(var(--secondary)) 100%
     );
     box-shadow: 
@@ -193,9 +189,9 @@
     background: linear-gradient(
       160deg,
       hsl(0 0% 0% / 0.3) 0%,
-      hsl(25 30% 20% / 0.2) 30%,
-      hsl(38 60% 55% / 0.1) 50%,
-      hsl(20 35% 40% / 0.3) 70%,
+      hsl(274 55% 18% / 0.3) 30%,
+      hsl(43 70% 55% / 0.12) 50%,
+      hsl(272 45% 25% / 0.35) 70%,
       hsl(0 0% 0% / 0.5) 100%
     );
   }
@@ -347,7 +343,7 @@
     background: linear-gradient(
       145deg,
       hsl(var(--secondary)) 0%,
-      hsl(25 40% 20%) 50%,
+      hsl(274 55% 14%) 50%,
       hsl(var(--secondary)) 100%
     );
   }
